@@ -58,14 +58,14 @@ export default function Contact() {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      value: "ragu@futryx.com",
-      link: "mailto:ragu@futryx.com",
+      value: "info@futryx.com",
+      link: "mailto:info@futryx.com",
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      value: "+91 9361434217",
-      link: "tel:+919361434217",
+      value: "+91 7305261003",
+      link: "tel:+917305261003",
     },
     {
       icon: <MapPin className="w-6 h-6" />,
