@@ -6,9 +6,14 @@ import { Card } from "@/components/ui/card";
 export default function Home() {
   const services = [
     {
-      icon: <Code className="w-12 h-12 text-[#00CFFD]" />,
-      title: "Web Development",
-      description: "Business websites, dashboards, and SaaS platforms built with modern technologies.",
+      icon: <MessageSquare className="w-12 h-12 text-[#00CFFD]" />,
+      title: "AI Automation",
+      description: "Intelligent workflows, predictive insights, and autonomous operations.",
+    },
+    {
+      icon: <Cloud className="w-12 h-12 text-[#00CFFD]" />,
+      title: "Digital Marketing",
+      description: "Grow your brand online with data-driven strategies and measurable results.",
     },
     {
       icon: <Smartphone className="w-12 h-12 text-[#00CFFD]" />,
@@ -16,20 +21,18 @@ export default function Home() {
       description: "Native Android and iOS mobile apps using Flutter and React Native.",
     },
     {
-      icon: <Cloud className="w-12 h-12 text-[#00CFFD]" />,
-      title: "Cloud & DevOps",
-      description: "AWS, Azure, and GCP setup, optimization, and deployment automation.",
+      icon: <Code className="w-12 h-12 text-[#00CFFD]" />,
+      title: "Web Development",
+      description: "Business websites, dashboards, and SaaS platforms built with modern technologies.",
     },
+    
+    
     {
       icon: <Palette className="w-12 h-12 text-[#00CFFD]" />,
       title: "UI/UX Design",
       description: "User-centered designs that improve experience and usability.",
     },
-    {
-      icon: <MessageSquare className="w-12 h-12 text-[#00CFFD]" />,
-      title: "Tech Consulting",
-      description: "Helping startups plan architecture and build effective tech roadmaps.",
-    },
+    
     {
       icon: <TrendingUp className="w-12 h-12 text-[#00CFFD]" />,
       title: "Software Development",
