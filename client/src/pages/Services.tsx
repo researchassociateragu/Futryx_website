@@ -6,6 +6,32 @@ import { Card } from "@/components/ui/card";
 export default function Services() {
   const services = [
     {
+      icon: <Cloud className="w-12 h-12" />,
+      title: "AI Automation",
+      description: "Intelligent workflows, predictive insights, and autonomous operations",
+      features: [
+        "AI strategy & roadmap consulting",
+        "Custom machine learning model development",
+        "Natural Language Processing (NLP) solutions",
+        "Generative AI integration (LLMs, ChatGPT, etc.)",
+        "Process automation with AI agents & bots",
+        "Predictive analytics & anomaly detection",
+      ],
+    },
+    {
+      icon: <MessageSquare className="w-12 h-12" />,
+      title: "Digital Marketing",
+      description: "Grow your brand online with data-driven strategies and measurable results.",
+      features: [
+        "Social media marketing & management",
+        "Content strategy & creation",
+        "SEO & SEM optimization",
+        "Email marketing automation",
+        "PPC & Google/Meta Ads",
+        "Brand identity & funnel optimization",
+      ],
+    },
+    {
       icon: <Code className="w-12 h-12" />,
       title: "Web Development",
       description: "Modern, responsive websites and web applications that drive business growth.",
@@ -45,19 +71,6 @@ export default function Services() {
       ],
     },
     {
-      icon: <Cloud className="w-12 h-12" />,
-      title: "Cloud & DevOps",
-      description: "Cloud infrastructure setup, deployment, and continuous integration.",
-      features: [
-        "AWS, Azure, and GCP setup",
-        "Cloud migration and optimization",
-        "CI/CD pipeline implementation",
-        "Container orchestration (Docker, Kubernetes)",
-        "Infrastructure as Code (Terraform)",
-        "Monitoring and performance optimization",
-      ],
-    },
-    {
       icon: <Palette className="w-12 h-12" />,
       title: "UI/UX Design",
       description: "User-centered designs that enhance experience and drive engagement.",
@@ -68,19 +81,6 @@ export default function Services() {
         "Responsive and mobile-first design",
         "Usability testing and iteration",
         "Design system creation",
-      ],
-    },
-    {
-      icon: <MessageSquare className="w-12 h-12" />,
-      title: "Tech Consulting",
-      description: "Strategic guidance to help you make the right technology decisions.",
-      features: [
-        "Technology stack selection",
-        "Architecture planning and review",
-        "Technical roadmap development",
-        "Code review and quality assessment",
-        "Team training and mentorship",
-        "Startup MVP planning",
       ],
     },
   ];
