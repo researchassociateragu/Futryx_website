@@ -6,12 +6,12 @@ import { Card } from "@/components/ui/card";
 export default function Home() {
   const services = [
     {
-      icon: <MessageSquare className="w-12 h-12 text-[#00CFFD]" />,
+      icon: <Cloud className="w-12 h-12 text-[#00CFFD]" />,
       title: "AI Automation",
       description: "Intelligent workflows, predictive insights, and autonomous operations.",
     },
     {
-      icon: <Cloud className="w-12 h-12 text-[#00CFFD]" />,
+      icon: <MessageSquare className="w-12 h-12 text-[#00CFFD]" />,
       title: "Digital Marketing",
       description: "Grow your brand online with data-driven strategies and measurable results.",
     },
