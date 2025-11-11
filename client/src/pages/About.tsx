@@ -24,14 +24,14 @@ export default function About() {
       description: "We invest in continuous learning and development, both for our team and the clients we serve.",
     },
   ];
-
+/*
   const stats = [
     { number: "50+", label: "Projects Delivered" },
     { number: "30+", label: "Happy Clients" },
     { number: "15+", label: "Team Members" },
     { number: "100%", label: "Client Satisfaction" },
   ];
-
+*/
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}

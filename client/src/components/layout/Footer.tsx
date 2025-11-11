@@ -38,7 +38,7 @@ export function Footer() {
               </a>
               
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/futryx.in"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white/70 hover:text-[#00CFFD] transition-colors"
@@ -151,14 +151,14 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-white/70 text-sm">
                 <Mail size={18} className="text-[#00CFFD]" />
-                <a href="mailto:ragu@futryx.com" className="hover:text-[#00CFFD] transition-colors" data-testid="link-email">
-                  ragu@futryx.com
+                <a href="mailto:info@futryx.com" className="hover:text-[#00CFFD] transition-colors" data-testid="link-email">
+                  info@futryx.com
                 </a>
               </li>
               <li className="flex items-center gap-3 text-white/70 text-sm">
                 <Phone size={18} className="text-[#00CFFD]" />
                 <a href="tel:+1234567890" className="hover:text-[#00CFFD] transition-colors" data-testid="link-phone">
-                  +91 9361434217
+                  +91 7305261003
                 </a>
               </li>
             </ul>
