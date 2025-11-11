@@ -25,6 +25,7 @@ export default function About() {
     },
   ];
 
+  // Stats data kept for future use — not rendered
   const stats = [
     { number: "50+", label: "Projects Delivered" },
     { number: "30+", label: "Happy Clients" },
@@ -94,22 +95,6 @@ export default function About() {
                 </div>
               </Card>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section className="py-20 bg-muted/30">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center" data-testid={`stat-${index}`}>
-                <div className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-[#A020F0] to-[#FF007F] bg-clip-text text-transparent mb-2">
-                  {stat.number}
-                </div>
-                <div className="text-muted-foreground font-medium">{stat.label}</div>
-              </div>
-            ))}
           </div>
         </div>
       </section>
